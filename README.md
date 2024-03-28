@@ -6,9 +6,6 @@ This repository contains a collection of small, simple Python projects that were
 
 - [Introduction](#introduction)
 - [Project List](#project-list)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
