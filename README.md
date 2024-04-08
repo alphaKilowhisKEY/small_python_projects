@@ -13,16 +13,17 @@ These small projects serve as exercises to practice Python programming concepts 
 
 ## Project List
 
-1. **BlackJack**
+1. **[BlackJack](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/blackjack)**: a simplified version of the Blackjack card game
 2. **Ceasar Cipher**
 3. **Coffee Machine**
 4. **CSV reader**
 4. **Hangman**
 5. **Higher-Lower**
-6. **NATO Alphabet**
-6. **Password Generator**
-7. **Guess Number**
-8. **Turtle**
-9. **Guess U.S. States**
+6. **NATO Alphabet** prompts the user to input a word, converts it to uppercase, and prints the NATO 
+phonetic code words for each letter in the word.
+7. **Password Generator**
+8. **Guess Number**
+9. **Turtle**
+10. **Guess U.S. States**
 
 
