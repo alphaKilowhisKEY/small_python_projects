@@ -19,8 +19,8 @@ These small projects serve as exercises to practice Python programming concepts 
 4. **CSV reader**
 4. **Hangman**
 5. **Higher-Lower**
-6. **NATO Alphabet** prompts the user to input a word, converts it to uppercase, and prints the NATO 
-phonetic code words for each letter in the word.
+6. **[NATO Alphabet](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/nato_alphabet)**   
+    prompts the user to input a word, converts it to uppercase, and prints the NATO phonetic code words for each letter in the word.
 7. **Password Generator**
 8. **Guess Number**
 9. **Turtle**
