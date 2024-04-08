@@ -1,3 +1,33 @@
+"""
+Blackjack Game
+
+This script implements a simplified version of the Blackjack card game.
+It utilizes the random module to deal cards and determine outcomes.
+The game is played between a user and a dealer controlled by the computer.
+
+Dependencies:
+    - random: A module to generate random numbers and choices.
+    - logo: A module containing the ASCII art for the game logo.
+
+Functions:
+    - deal_card(): Returns a random card from the deck (values 2 to 11).
+    - calculate_score(cards): Takes a list of cards and returns their total score.
+    - compare(user_score, dealer_score): Compares the scores of the user and the dealer to determine the winner.
+    - play_game(): Manages the game flow, dealing cards to the user and the dealer, and determining the winner.
+
+Usage:
+    - Run the script to play the Blackjack game.
+    - Follow the prompts to decide whether to take another card or pass.
+    - The game ends when the user decides to pass, goes over 21, or achieves a Blackjack.
+    - After the user finishes, the dealer draws cards until their score is 17 or higher.
+    - The winner is determined based on the scores.
+    - You can play multiple rounds by entering 'y' when prompted.
+
+Example:
+    $ python blackjack_game.py
+    Do you want to play a game of Blackjack? Type 'y' or 'n': y
+    # Game output will be displayed based on the gameplay.
+"""
 import random
 import logo
 #from replit import clear
