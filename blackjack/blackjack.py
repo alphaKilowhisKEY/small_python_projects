@@ -24,7 +24,7 @@ Usage:
     - You can play multiple rounds by entering 'y' when prompted.
 
 Example:
-    $ python blackjack_game.py
+    $ python blackjack.py
     Do you want to play a game of Blackjack? Type 'y' or 'n': y
     # Game output will be displayed based on the gameplay.
 """
@@ -102,9 +102,3 @@ def play_game():
 while input("Do you want to play a game of Blackjack? Type 'y' or 'n': "):
     #clear()
     play_game()
-
-    
-
-        
-
-    
