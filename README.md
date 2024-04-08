@@ -16,9 +16,13 @@ These small projects serve as exercises to practice Python programming concepts 
 1. **BlackJack**
 2. **Ceasar Cipher**
 3. **Coffee Machine**
+4. **CSV reader**
 4. **Hangman**
 5. **Higher-Lower**
+6. **NATO Alphabet**
 6. **Password Generator**
 7. **Guess Number**
+8. **Turtle**
+9. **Guess U.S. States**
 
 
