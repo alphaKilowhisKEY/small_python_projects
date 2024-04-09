@@ -1,3 +1,20 @@
+"""
+Caesar Cipher
+
+This script allows users to encrypt or decrypt messages using the Caesar cipher technique.
+The Caesar cipher shifts each letter in the message by a certain number of positions down or up the alphabet.
+
+Dependencies:
+    - art: For displaying the logo.
+
+Usage:
+    Run this script to start the Caesar Cipher program by: >> python3 caesar.py
+    Follow the prompts to choose whether to encode or decode a message, input the message, and specify the shift amount.
+    The program will then display the encrypted or decrypted message.
+    Choose whether to continue with another message or exit the program.
+    
+"""
+
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 def caesar(start_text, shift_amount, cipher_direction):

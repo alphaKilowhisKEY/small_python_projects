@@ -14,17 +14,15 @@ These small projects serve as exercises to practice Python programming concepts 
 ## Project List
 
 1. **[BlackJack](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/blackjack)**: a simplified version of the Blackjack card game
-2. **Ceasar Cipher**
+2. **[Ceasar Cipher](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/caesar_cipher)** to encrypt or decrypt messages using the Caesar cipher technique
 3. **Coffee Machine**
 4. **CSV reader**
-4. **Hangman**
-5. **Higher-Lower**
-6. **[NATO Alphabet](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/nato_alphabet)**   
+5. **Guess Number**
+6. **[Guess U.S. States](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/us_states)** game to guess the names of U.S. states
+7. **Hangman**
+8. **Higher-Lower**
+9. **[NATO Alphabet](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/nato_alphabet)**   
     prompts the user to input a word, converts it to uppercase, and prints the NATO phonetic code words for each letter in the word
-7. **Password Generator**
-8. **[Pomodoro](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/pomodoro)** a timer to break work into intervals
-9. **Guess Number**
-10. **Turtle**
-11. **[Guess U.S. States](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/us_states)** game to guess the names of U.S. states
-
-
+10. **Password Generator**
+11. **[Pomodoro](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/pomodoro)** a timer to break work into intervals
+12. **Turtle**
