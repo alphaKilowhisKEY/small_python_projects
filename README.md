@@ -13,16 +13,16 @@ These small projects serve as exercises to practice Python programming concepts 
 
 ## Project List
 
-1. **[BlackJack](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/blackjack)**: a simplified version of the Blackjack card game
-2. **[Ceasar Cipher](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/caesar_cipher)**: to encrypt or decrypt messages using the Caesar cipher technique
-3. **[Coffee Machine](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/coffee%2Bmachine)**: simulates the operation of a coffee machine
-4. **[CSV reader](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/csv_reader/central_park)**: analyzes data from the 2018 Central Park Squirrel Census 
-5. **[Guess Number](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/guess_number)**: a number guessing game
-6. **[Guess U.S. States](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/us_states)**: game to guess the names of U.S. states
-7. **[Hangman](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/hangman)**: a simple Hangman game where players must guess letters in a randomly chosen word
+1. **[BlackJack](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/blackjack)**: a simplified version of the Blackjack card game.
+2. **[Ceasar Cipher](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/caesar_cipher)**: to encrypt or decrypt messages using the Caesar cipher technique.
+3. **[Coffee Machine](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/coffee%2Bmachine)**: simulates the operation of a coffee machine.
+4. **[CSV reader](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/csv_reader/central_park)**: analyzes data from the 2018 Central Park Squirrel Census .
+5. **[Guess Number](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/guess_number)**: a number guessing game.
+6. **[Guess U.S. States](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/us_states)**: game to guess the names of U.S. states.
+7. **[Hangman](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/hangman)**: a simple Hangman game where players must guess letters in a randomly chosen word.
 8. **[Higher-Lower](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/higher_lower)**: guess game which item from a list has more followers on social media.
 9. **[NATO Alphabet](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/nato_alphabet)**:   
-    prompts the user to input a word, converts it to uppercase, and prints the NATO phonetic code words for each letter in the word
-10. **Password Generator**
-11. **[Pomodoro](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/pomodoro)**: a timer to break work into intervals
+    prompts the user to input a word, converts it to uppercase, and prints the NATO phonetic code words for each letter in the word.
+10. **[Password Generator](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/password_generator)**: generates a random password based on user-defined criteria.
+11. **[Pomodoro](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/pomodoro)**: a timer to break work into intervals.
 12. **Turtle**
