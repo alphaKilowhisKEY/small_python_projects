@@ -1,3 +1,22 @@
+"""
+Number Guessing Game
+
+This script allows users to play a number guessing game. The program randomly selects a number between 1 and 100,
+and the user must guess the number within a limited number of attempts.
+
+Dependencies:
+    - randint: From the random module for generating random integers.
+
+Constants:
+    - EASY_LEVEL_TURNS (int): The number of attempts allowed for the easy level.
+    - HARD_LEVEL_TURNS (int): The number of attempts allowed for the hard level.
+
+Usage:
+    Run this script to start the Number Guessing Game by: >>python3 guess_number.py
+    Follow the prompts to choose a difficulty level (easy or hard) and make guesses to determine the chosen number.
+    You have a limited number of attempts to guess the correct number.
+"""
+
 from random import randint
 chosen_number = randint(1, 100)
 
