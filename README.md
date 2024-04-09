@@ -20,10 +20,11 @@ These small projects serve as exercises to practice Python programming concepts 
 4. **Hangman**
 5. **Higher-Lower**
 6. **[NATO Alphabet](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/nato_alphabet)**   
-    prompts the user to input a word, converts it to uppercase, and prints the NATO phonetic code words for each letter in the word.
+    prompts the user to input a word, converts it to uppercase, and prints the NATO phonetic code words for each letter in the word
 7. **Password Generator**
-8. **Guess Number**
-9. **Turtle**
-10. **Guess U.S. States**
+8. **Pomodoro** a timer to break work into intervals
+9. **Guess Number**
+10. **Turtle**
+11. **Guess U.S. States** game to guess the names of U.S. states
 
 
