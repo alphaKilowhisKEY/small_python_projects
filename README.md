@@ -23,5 +23,6 @@ These small projects serve as exercises to practice Python programming concepts 
 8. **[Higher-Lower](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/higher_lower)**: guess game which item from a list has more followers on social media.
 9. **[NATO Alphabet](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/nato_alphabet)**: prompts the user to input a word, converts it to uppercase, and prints the NATO phonetic code words for each letter in the word.
 10. **[Password Generator](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/password_generator)**: generates a random password based on user-defined criteria.
-11. **[Pomodoro](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/pomodoro)**: a timer to break work into intervals.
-12. **[Turtle](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/turtle)**: turtle drawing, graphics and racing, 
+11. **[Password Manager](https://github.com/alphaKilowhisKEY/small_python_projects/blob/main/password_manager/main.py)**: a simple GUI password manager.
+12. **[Pomodoro](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/pomodoro)**: a timer to break work into intervals.
+13. **[Turtle](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/turtle)**: turtle drawing, graphics and racing, 
