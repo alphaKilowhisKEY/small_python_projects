@@ -1,3 +1,20 @@
+"""
+Higher Lower Game
+
+This script implements a Higher Lower game where players guess which item from a list has more followers on social media.
+Players are presented with two random items and must guess which one has a higher number of followers.
+
+Dependencies:
+    - randint: From the random module for generating random integers.
+    - data: A module containing a list of items with their details.
+    - logo: A module containing ASCII art for the game logo and VS sign.
+
+Usage:
+    Run this script to start the Higher Lower game by: >>python3 main.py
+    Players are presented with two items and must guess which one has more followers by typing 'A' or 'B'.
+    The game continues until the player makes a wrong guess or decides to quit.
+"""
+
 from random import randint
 from data import data
 import logo
