@@ -22,9 +22,9 @@ These small projects serve as exercises to practice Python programming concepts 
 6. **[NATO Alphabet](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/nato_alphabet)**   
     prompts the user to input a word, converts it to uppercase, and prints the NATO phonetic code words for each letter in the word
 7. **Password Generator**
-8. **Pomodoro** a timer to break work into intervals
+8. **[Pomodoro](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/pomodoro)** a timer to break work into intervals
 9. **Guess Number**
 10. **Turtle**
-11. **Guess U.S. States** game to guess the names of U.S. states
+11. **[Guess U.S. States](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/us_states)** game to guess the names of U.S. states
 
 
