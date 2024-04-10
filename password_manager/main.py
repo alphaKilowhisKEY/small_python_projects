@@ -1,27 +1,26 @@
 """
 This script implements a simple password manager using Tkinter for the user interface and Pandas 
-for handling CSV file operations.
+for handling JSON file operations.
 
 The script provides the following functionalities:
 1. Generate a random password
-2. Save password entries (Website, Email/Username, Password) to a CSV file
-3. Check if the data already exists in the CSV file before adding new entries
+2. Save password entries (Website, Email/Username, Password) to a JSON file
+3. Check if the data already exists in the JSON file before adding new entries
 4. Display error/warning messages using Tkinter messagebox
 
 Dependencies:
 - Tkinter: For creating the graphical user interface (GUI)
-- Pandas: For reading/writing data to/from a CSV file
 - Random: For generating random passwords
+- JSON
 
 Usage:
-    Run this script  >>python3 main.py.
+    Run this script:  $python3 main.py.
 
 """
 
 import json
 from tkinter import *
 from tkinter import messagebox
-import pandas as pd
 import random
 
 # ---------------------------- CONSTANTS ------------------------------- #
