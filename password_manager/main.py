@@ -18,6 +18,7 @@ Usage:
 
 """
 
+import json
 from tkinter import *
 from tkinter import messagebox
 import pandas as pd
@@ -26,6 +27,24 @@ import random
 # ---------------------------- CONSTANTS ------------------------------- #
 FONT = ("Courier", 12, "bold")
 FILE_PATH = "entries_dict.csv"
+
+# ---------------------------- SEARCH FUNCTION---- ---------------------- #
+def search():
+
+    website = website_input.get()
+
+    try:
+        with open("data.json") as data_file:
+            data = json.load(data_file)
+    except FileNotFoundError:
+        messagebox.showinfo(title="Error", message="No Data File Found.")
+    else:
+        if website in data:
+            email = data[website]["username"]
+            password = data[website]["password"]
+            messagebox.showinfo(title=website, message=f"Email: {email}\nPassword: {password}")
+        else:
+            messagebox.showinfo(title="Error", message=f"No details for {website} exists.")
 
 # ---------------------------- PASSWORD GENERATOR ---------------------- #
 def generate_password():
@@ -51,33 +70,33 @@ def add_entries():
     username = username_input.get()
     password = password_input.get()
 
-    # Check if the data is already present in the CSV file
-    df = pd.read_csv(FILE_PATH)
-
-    if ((df['Website'] == website) & (df['Email/Username'] == username) & (df['Password'] == password)).any():
-        print("Data already exists in the CSV file.")
-        messagebox.showerror(message="Data already exists")
-        return  # Exit the function if data already exists
-        
-    else:
-
-        data_dict = {
-            'Website': website,
-            'Email/Username': username,
-            'Password': password,
+    new_data = {
+            website: {
+                'username': username,
+                'password': password,
             }
-        
-        if (len(website) and len(username) and len(password)) != 0:
-            data_df = pd.DataFrame([data_dict])
-            data_df.to_csv(FILE_PATH, mode='a', header=False, index=False)
-            print("Data has been added to the CSV file.")
-            messagebox.showinfo(message="Data has been added")
+        }
 
-            website_input.delete(0, END) 
-            username_input.delete(0, END) 
-            password_input.delete(0, END) 
+    if len(website) == 0 or len(password) == 0:
+        messagebox.showinfo(title="Error", message="No empty fields")
+    else:
+        try:
+            with open("data.json", "r") as data_file:
+                #Reading old data
+                data = json.load(data_file)
+        except FileNotFoundError:
+            with open("data.json", "w") as data_file:
+                json.dump(new_data, data_file, indent=4)
         else:
-            messagebox.showwarning(message="No empty fields!")    
+            #Updating old data with new data
+            data.update(new_data)
+
+            with open("data.json", "w") as data_file:
+                #Saving updated data
+                json.dump(data, data_file, indent=4)
+        finally:
+            website_input.delete(0, END)
+            password_input.delete(0, END)
 
 # ---------------------------- UI SETUP -------------------------------- #
 #Main Window
@@ -97,8 +116,8 @@ website = Label(text="Website:", font=FONT)
 website.grid(column=0, row=1)
 
 #Website Input
-website_input = Entry(width=53)
-website_input.grid(column=1, row=1, columnspan=2)
+website_input = Entry(width=28)
+website_input.grid(column=1, row=1)
 website_input.focus()
 
 #Email/Username Label
@@ -117,6 +136,10 @@ password.grid(column=0, row=3)
 #Password Input
 password_input = Entry(width=28)
 password_input.grid(column=1, row=3)
+
+#Search Button
+search_button = Button(text="Search", font=FONT, width=17, command=search)
+search_button.grid(column=2, row=1)
 
 #Generate Password Button
 generate_passw_button = Button(text="Generate Password", font=FONT, command=generate_password)
