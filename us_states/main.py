@@ -1,3 +1,25 @@
+"""
+U.S. States Game
+
+This game allows users to guess the names of U.S. states. 
+When a correct state name is guessed, the game displays the name of the state at its corresponding location
+on the map.
+
+Dependencies:
+    - pandas: For data manipulation
+    - turtle: For graphics
+
+Instructions:
+    1. Run this script to start the U.S. States Game by: >> python3 main.py
+    2. Enter the name of a U.S. state when prompted.
+    3. If the state name is correct, the game will display the name at its location on the map.
+    4. Continue guessing until all 50 states are correctly guessed.
+    5. Click anywhere on the screen to exit the game.
+
+Data Files:
+    - "50_states.csv": CSV file containing the coordinates of U.S. states.
+
+"""
 import pandas, turtle
 
 screen = turtle.Screen()
