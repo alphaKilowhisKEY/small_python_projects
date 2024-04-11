@@ -17,7 +17,7 @@ These small projects serve as exercises to practice Python programming concepts 
 2. **[Ceasar Cipher](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/caesar_cipher)**: to encrypt or decrypt messages using the Caesar cipher technique.
 3. **[Coffee Machine](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/coffee%2Bmachine)**: simulates the operation of a coffee machine.
 4. **[CSV reader](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/csv_reader/central_park)**: analyzes data from the 2018 Central Park Squirrel Census .
-5. **[Flash Cards Application](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/flash_cards)**: a flash cards application that helps users learn French words and their English translations.
+5. **[Flash Cards Application](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/flash_cards)**: a flash cards application to learn French words and their English translations.
 6. **[Guess Number](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/guess_number)**: a number guessing game.
 7. **[Guess U.S. States](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/us_states)**: game to guess the names of U.S. states.
 8. **[Hangman](https://github.com/alphaKilowhisKEY/small_python_projects/tree/main/hangman)**: a simple Hangman game where players must guess letters in a randomly chosen word.
