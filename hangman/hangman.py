@@ -11,7 +11,7 @@ Dependencies:
     - ascii_hangman: A module containing ASCII art for Hangman stages.
 
 Usage:
-    Run this script to start the Hangman game by: >> python3 hangman.py
+    Run this script to start the Hangman game by: $ python3 hangman.py
     Players must guess letters to complete the hidden word.
     Players have 6 lives to guess incorrectly before losing the game.
 """

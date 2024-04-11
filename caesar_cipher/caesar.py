@@ -8,7 +8,7 @@ Dependencies:
     - art: For displaying the logo.
 
 Usage:
-    Run this script to start the Caesar Cipher program by: >> python3 caesar.py
+    Run this script to start the Caesar Cipher program by: $ python3 caesar.py
     Follow the prompts to choose whether to encode or decode a message, input the message, and specify the shift amount.
     The program will then display the encrypted or decrypted message.
     Choose whether to continue with another message or exit the program.

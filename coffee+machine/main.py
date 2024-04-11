@@ -9,7 +9,7 @@ Dependencies:
     - resources: A dictionary containing the initial resources of the coffee machine.
 
 Usage:
-    Run this script to start the Coffee Machine Simulator by: >> python3 main.py
+    Run this script to start the Coffee Machine Simulator by: $ python3 main.py
     Follow the prompts to choose a beverage, view a resources report, or turn off the machine.
 
 """
