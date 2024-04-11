@@ -1,7 +1,7 @@
 """
 Caesar Cipher
 
-This script allows users to encrypt or decrypt messages using the Caesar cipher technique.
+This script allows to encrypt or decrypt messages using the Caesar cipher technique.
 The Caesar cipher shifts each letter in the message by a certain number of positions down or up the alphabet.
 
 Dependencies:
@@ -12,7 +12,7 @@ Usage:
     Follow the prompts to choose whether to encode or decode a message, input the message, and specify the shift amount.
     The program will then display the encrypted or decrypted message.
     Choose whether to continue with another message or exit the program.
-    
+
 """
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
