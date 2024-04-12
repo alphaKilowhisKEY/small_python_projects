@@ -9,12 +9,6 @@ Dependencies:
     - random: A module to generate random numbers and choices.
     - logo: A module containing the ASCII art for the game logo.
 
-Functions:
-    - deal_card(): Returns a random card from the deck (values 2 to 11).
-    - calculate_score(cards): Takes a list of cards and returns their total score.
-    - compare(user_score, dealer_score): Compares the scores of the user and the dealer to determine the winner.
-    - play_game(): Manages the game flow, dealing cards to the user and the dealer, and determining the winner.
-
 Usage:
     - Run the script to play the Blackjack game.
     - Follow the prompts to decide whether to take another card or pass.
