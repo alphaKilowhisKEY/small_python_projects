@@ -8,7 +8,7 @@ Dependencies:
     - pandas: For data manipulation.
 
 Usage:
-    Run this script to count the number of squirrels with different fur colors by: >> python3 main.py
+    Run this script to count the number of squirrels with different fur colors by: $ python3 main.py
     Ensure that the input CSV file ("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv") is in the same directory.
     The script will generate an output CSV file ("Fur_Color_Count.csv") containing the fur color counts.
 

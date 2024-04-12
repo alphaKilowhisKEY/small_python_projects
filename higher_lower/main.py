@@ -10,7 +10,7 @@ Dependencies:
     - logo: A module containing ASCII art for the game logo and VS sign.
 
 Usage:
-    Run this script to start the Higher Lower game by: >>python3 main.py
+    Run this script to start the Higher Lower game by: $ python3 main.py
     Players are presented with two items and must guess which one has more followers by typing 'A' or 'B'.
     The game continues until the player makes a wrong guess or decides to quit.
 """

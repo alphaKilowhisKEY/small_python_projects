@@ -10,7 +10,7 @@ Dependencies:
     - logo: A module containing the ASCII art for the game logo.
 
 Usage:
-    - Run the script to play the Blackjack game.
+    - Run the script to play the Blackjack game by: $ python3 blackjack.py
     - Follow the prompts to decide whether to take another card or pass.
     - The game ends when the user decides to pass, goes over 21, or achieves a Blackjack.
     - After the user finishes, the dealer draws cards until their score is 17 or higher.

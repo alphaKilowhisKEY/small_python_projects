@@ -8,7 +8,7 @@ It features a graphical user interface built with Tkinter.
 
 Usage:
     Run this script to start the Pomodoro timer application by:
-    >> python3 main.py
+    $ python3 main.py
 
 """
 
